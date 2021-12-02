@@ -36,6 +36,19 @@ Running on video device 0
 (venv)python capture.py --video=0
 ```
 
+The following fps information should appear in console or in ```logfile.txt``` . 
+
+```
+2021-12-02 16:12:01,067 [INFO] Press q or esc to exit program.
+2021-12-02 16:12:01,068 [INFO] Frame size , width 640 ,height 480.
+2021-12-02 16:12:09,017 [INFO] running frame per sec 10.516485489831366
+2021-12-02 16:12:13,018 [INFO] running frame per sec 12.49434756648364
+2021-12-02 16:12:17,019 [INFO] running frame per sec 12.499466561194788
+2021-12-02 16:12:21,019 [INFO] running frame per sec 12.49800579777237
+```
+
+Note that typing q or esc on opencv's windows will terminal program.
+
 ## PyInstalling (Windows)
 
 ```bash
