@@ -60,7 +60,6 @@ class capture_thread (threading.Thread):
         self.running = True
 
         self.q = Queue(maxsize=queue_size)
-        self.lock = threading.Lock()
         self.frame_count = frame_count
 
     def stop(self):
